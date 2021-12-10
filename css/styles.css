@@ -116,6 +116,10 @@ img {
 .header-list-contact .header-link {
   color: var(--additional-text-color);
 }
+.contacts-icon {
+  margin-right: 10px;
+  fill: #000000;
+}
 /* ---------------HERO----------------- */
 .hero {
   background-color: var(--futer-background-color);
