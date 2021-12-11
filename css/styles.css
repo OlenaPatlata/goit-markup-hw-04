@@ -256,6 +256,8 @@ img {
 .team-description {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 .team-name {
   color: var(--primary-text-color);
@@ -272,6 +274,53 @@ img {
   line-height: 1.19;
   text-align: center;
   display: block;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 206px;
+  outline: 1px solid tomato;
+}
+.social-item {
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  outline: 1px solid tomato;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* ---------------CLIENT----------------- */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  outline: 1px solid tomato;
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.client-item {
+  padding: 16px 32px;
+  width: 170px;
+  outline: 1px solid tomato;
 }
 /* ---------------FOOTER----------------- */
 .footer {
