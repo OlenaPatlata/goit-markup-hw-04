@@ -13,6 +13,7 @@
   --icon-color: #afb1b8;
   --icon-color-hover: #ffffff;
   --additional-icon-color-hover: #2196f3;
+  --additional-icon-color-footer: #44454e;
 }
 /* ---------------BODY----------------- */
 body {
@@ -384,6 +385,16 @@ svg {
   background-color: var(--futer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  height: 252px;
+}
+footer .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1170px;
+}
+.logo-and-adress {
+  margin-right: 70px;
 }
 .footer .logo {
   display: block;
@@ -413,6 +424,40 @@ svg {
 .footer-address-link:focus {
   color: var(--accent-color);
 }
+.join-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--additional-accent-color);
+  margin-bottom: 20px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--additional-icon-color-hover);
+}
+footer .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--additional-icon-color-footer);
+}
+footer .social-icon {
+  --color4: var(--icon-color-hover);
+}
+
 /* ---------------PAGE PORTFOLIO----------------- */
 /* ---------------SECTION PORTFOLIO----------------- */
 .portfolio.section {
