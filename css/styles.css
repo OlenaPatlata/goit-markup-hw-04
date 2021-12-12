@@ -125,10 +125,11 @@ svg {
 }
 .contacts-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 .contacts-icon:hover,
 .contacts-icon:focus {
-  --color3: var(--additional-icon-color-hover);
+  fill: currentColor;
 }
 /* ---------------HERO----------------- */
 .hero {
@@ -319,7 +320,8 @@ svg {
 }
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--additional-icon-color-hover);
+  background-color: var(--accent-color);
+  color: var(--icon-color-hover);
 }
 .social-link {
   display: flex;
@@ -328,13 +330,14 @@ svg {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: var(--icon-color);
 }
 .social-icon {
-  --color4: var(--icon-color);
+  fill: currentColor;
 }
 .social-link:hover svg,
 .social-link:focus svg {
-  --color4: var(--icon-color-hover);
+  fill: currentColor;
 }
 
 /* ---------------CLIENT----------------- */
@@ -424,6 +427,10 @@ footer .container {
 .footer-address-link:focus {
   color: var(--accent-color);
 }
+.join {
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
 .join-text {
   font-weight: bold;
   font-size: 14px;
@@ -441,10 +448,6 @@ footer .container {
 .social-item:not(:last-child) {
   margin-right: 10px;
 }
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--additional-icon-color-hover);
-}
 footer .social-link {
   display: flex;
   align-items: center;
@@ -453,9 +456,14 @@ footer .social-link {
   height: 44px;
   border-radius: 50%;
   background-color: var(--additional-icon-color-footer);
+  color: var(--icon-color-hover);
 }
-footer .social-icon {
-  --color4: var(--icon-color-hover);
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-social-icon {
+  fill: currentColor;
 }
 
 /* ---------------PAGE PORTFOLIO----------------- */
