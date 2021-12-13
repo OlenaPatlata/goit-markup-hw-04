@@ -365,7 +365,7 @@ svg {
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
-.client-item {
+.client-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,13 +374,13 @@ svg {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-linkfocus {
   border: 1px solid var(--additional-icon-color-hover);
   cursor: pointer;
 }
-.client-item:hover svg,
-.client-item:focus svg {
+.client-link:hover svg,
+.client-link:focus svg {
   --color4: var(--additional-icon-color-hover);
   --color2: var(--additional-icon-color-hover);
 }
